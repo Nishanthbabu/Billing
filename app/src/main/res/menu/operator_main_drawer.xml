@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/operator_operation_table" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Operation Table " />
+        <item android:id="@+id/operator_grandtotal" android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="Grand Total"  />
+
+    </group>
+
+
+
+</menu>

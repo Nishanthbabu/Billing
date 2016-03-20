@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="01"
+        android:id="@+id/transaction_list_row_slno"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="C3"
+        android:id="@+id/transaction_list_row_code" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="idly"
+        android:id="@+id/transaction_list_row_item" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="20"
+        android:id="@+id/transaction_list_row_rate" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="20"
+        android:id="@+id/transaction_list_row_quantity" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="20"
+        android:id="@+id/transaction_list_row_price" />
+</LinearLayout>
